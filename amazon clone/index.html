@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com. Spend less. Smile more.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <a href="#"><img src="amazon_logo.png" alt="Amazon Logo"></a>
+            </div>
+
+            <div class="nav-address border hide-on-mobile">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">United States</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin border hide-on-mobile">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+
+            <div class="nav-return border hide-on-mobile">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-text hide-on-very-small-mobile">Cart</span>
+                <span id="cart-count" class="cart-count">0</span>
+            </div>
+        </div>
+        <div class="panel">
+            <div id="panel-all-btn" class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p class="border">Today's Deals</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Sell</p>
+            </div>
+            <div class="panel-deals border">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <div id="side-nav-container" class="side-nav-container">
+        <div id="side-nav" class="side-nav">
+            <div class="side-nav-header">
+                <i class="fa-solid fa-user-circle"></i>
+                <h3>Hello, sign in</h3>
+                <button id="side-nav-close-btn">&times;</button>
+            </div>
+            <div class="side-nav-content">
+                <h4>Trending</h4>
+                <ul>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">New Releases</a></li>
+                    <li><a href="#">Movers & Shakers</a></li>
+                </ul>
+                <hr>
+                <h4>Digital Content & Devices</h4>
+                <ul>
+                    <li><a href="#">Amazon Music</a></li>
+                    <li><a href="#">Kindle E-readers & Books</a></li>
+                    <li><a href="#">Amazon Appstore</a></li>
+                </ul>
+                <hr>
+                <h4>Shop By Department</h4>
+                <ul>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Smart Home</a></li>
+                    <li><a href="#">Arts & Crafts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="side-nav-overlay" class="side-nav-overlay"></div>
+    </div>
+
+    <main>
+        <div class="hero-section">
+            <div class="hero-msg">
+                <p>You are on a clone of amazon.com. You can also shop on Amazon for millions of products with fast local delivery. </p>
+            </div>
+        </div>
+
+        <div class="shop-section">
+            <div class="box">
+                <div class="box-content">
+                    <h2>Deals in PCs</h2>
+                    <a href="product1.png" download="product1.png" title="Download Deals in PCs image">
+                        <div class="box-img" style="background-image: url('product1.png');"></div>
+                    </a>
+                    <div class="box-actions">
+                        <a href="#" class="shop-now-link">Shop now</a>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Toys under $25</h2>
+                    <a href="product2.png" download="product2.png" title="Download Toys under $25 image">
+                        <div class="box-img" style="background-image: url('product2.png');"></div>
+                    </a>
+                    <div class="box-actions">
+                        <a href="#" class="shop-now-link">Shop now</a>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Gaming accessories</h2>
+                    <a href="product3.png" download="product3.png" title="Download Gaming accessories image">
+                        <div class="box-img" style="background-image: url('product3.png');"></div>
+                    </a>
+                    <div class="box-actions">
+                        <a href="#" class="shop-now-link">Shop now</a>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Refresh your space</h2>
+                    <a href="product4.png" download="product4.png" title="Download Refresh your space image">
+                        <div class="box-img" style="background-image: url('product4.png');"></div>
+                    </a>
+                    <div class="box-actions">
+                        <a href="#" class="shop-now-link">Shop now</a>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+             <div class="box">
+                <div class="box-content">
+                    <h2>Shop smartwatches</h2>
+                     <a href="product5.png" download="product5.png" title="Download Shop smartwatches image">
+                        <div class="box-img" style="background-image: url('product5.png');"></div>
+                    </a>
+                    <div class="box-actions">
+                        <a href="#" class="shop-now-link">Shop now</a>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Top Deal</h2>
+                    <a href="product6.png" download="product6.png" title="Download Top Deal image">
+                        <div class="box-img" style="background-image: url('product6.png');"></div>
+                    </a>
+                    <div class="box-actions">
+                        <a href="#" class="shop-now-link">Shop now</a>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>New arrivals in Toys</h2>
+                    <a href="product7.png" download="product7.png" title="Download New arrivals in Toys image">
+                        <div class="box-img" style="background-image: url('product7.png');"></div>
+                    </a>
+                    <div class="box-actions">
+                        <a href="#" class="shop-now-link">Shop now</a>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>For your Fitness Needs</h2>
+                    <a href="product8.png" download="product8.png" title="Download For your Fitness Needs image">
+                        <div class="box-img" style="background-image: url('product8.png');"></div>
+                    </a>
+                    <div class="box-actions">
+                        <a href="#" class="shop-now-link">Shop now</a>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot-panel1">
+            Back to top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+            </ul>
+             <ul>
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+             <ul>
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+             <img src="amazon_logo.png" alt="Amazon Logo">
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

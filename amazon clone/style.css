@@ -242,7 +242,7 @@ span {
 
 /* Main Content */
 .hero-section {
-    background-image: url("hero_image.png");
+    background-image: url("images/hero_image.png");
     height: 350px;
     background-size: cover;
     background-position: center top;
@@ -330,9 +330,42 @@ span {
     transition: transform 0.3s ease-in-out;
 }
 
+.box-img-1 {
+    background-image: url('images/product1.png');
+}
+
+.box-img-2 {
+    background-image: url('images/product2.png');
+}
+
+.box-img-3 {
+    background-image: url('images/product3.png');
+}
+
+.box-img-4 {
+    background-image: url('images/product4.png');
+}
+
+.box-img-5 {
+    background-image: url('images/product5.png');
+}
+
+.box-img-6 {
+    background-image: url('images/product6.png');
+}
+
+.box-img-7 {
+    background-image: url('images/product7.png');
+}
+
+.box-img-8 {
+    background-image: url('images/product8.png');
+}
+
 .box:hover .box-img {
     transform: scale(1.03);
 }
+
 
 .box-content {
     margin-left: 1rem;
@@ -704,10 +737,11 @@ footer {
     }
 
     .foot-panel2 {
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
         align-items: flex-start;
         padding: 20px 30px;
+        font-size: 0.75em;
     }
 
     .foot-panel2 ul {

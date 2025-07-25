@@ -1,9 +1,6 @@
-// This file is currently empty.
-// Interactivity, like handling search or adding to cart, can be added here.
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- Sound Effect Handler ---
     let audioContext;
     let clickBuffer;
 
@@ -21,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function playClickSound() {
         if (!audioContext || !clickBuffer) return;
-        // Resume context on user gesture
         if (audioContext.state === 'suspended') {
             audioContext.resume();
         }
@@ -31,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
         source.start(0);
     }
 
-    // Initialize audio context on first user interaction
     document.body.addEventListener('click', setupAudio, { once: true });
 
 
@@ -67,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     addToCartButtons.forEach(button => {
         button.addEventListener('click', (e) => {
-            e.preventDefault(); // Good practice for buttons inside forms or links
+            e.preventDefault(); 
             cartCount++;
             cartCountElement.textContent = cartCount;
             playClickSound();
